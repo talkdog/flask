@@ -3,11 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="336430f9-7443-4030-8188-5b9d3490f9ff" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/image/1485559.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/image/272887.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/image/dd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/css/base.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/test/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/test/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -35,11 +33,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\flask\app\templates\show" />
       <recent name="C:\flask\app\static\image" />
       <recent name="E:\Python\flaskdemo\app\static\css" />
       <recent name="E:\Python\flaskdemo\app\static\carousel.css" />
       <recent name="C:\Users\Java\PycharmProjects\flaskdemo\app\static\image" />
-      <recent name="$PROJECT_DIR$/app" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Python\flaskdemo\app\static\image" />
