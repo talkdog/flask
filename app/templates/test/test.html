@@ -3,9 +3,29 @@
 
 {% block head %}
     {{super()}}
+    <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}"/>
+{% endblock %}
+{% block navbar %}
+    {{super()}}
 {% endblock %}
 {% block content %}
-<h1>Hello</h1>
+<!--
+    <section id="topwelcome" class="container" style="background-color:#000d1a;">
+        <div class="col-sm-12" style="margin-top:20px;">
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="../static/image/9ih0p-i27o4.mp4" frameborder="0">
+                </iframe>
+            </div>
+        </div>
+    </section>
+    <section class="container">
+        <iframe src="http://192.168.119.128:5601/goto/14ed1531de44aaf4cce107c3b5962298?embed=true" height="600" width="800"></iframe>
+    </section>
+   !-->
+            <section id="banner" style="background-image: url('../../static/image/banner.jpg');">
+				<h1>Welcome to Theory</h1>
+				<p>A free responsive HTML5 website template by TEMPLATED.</p>
+			</section>
 {% endblock %}
 {% block scripts %}
 {%- endblock scripts %}
