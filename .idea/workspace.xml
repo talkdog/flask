@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="336430f9-7443-4030-8188-5b9d3490f9ff" name="Default" comment="" />
+=======
+<<<<<<< HEAD
+    <list default="true" id="336430f9-7443-4030-8188-5b9d3490f9ff" name="Default" comment="" />
+=======
+    <list default="true" id="336430f9-7443-4030-8188-5b9d3490f9ff" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/app/static/image/banner.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/css/base.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/show/showtime.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/show/showtime.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/test/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/test/test.html" afterDir="false" />
+    </list>
+>>>>>>> 7db0a36b15c875680e30be46775c2376cb65692e
+>>>>>>> 5a1a9214cc6580f75070e6660559949959ddd099
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -2,7 +2,8 @@
 
 {% block head %}
     {{super()}}
-    <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}"/>
+<link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}"
+      xmlns="http://www.w3.org/1999/html"/>
 {% endblock %}
 
 {% block navbar %}
@@ -36,27 +37,29 @@
         </div>
     </section>
     -->
-        <section id="banner"  style="background-image: url('../../static/image/banner.jpg');">
-            <h1></h1>
+        <section id="banner"  style="background-image: url('../../static/image/US.jpg');padding: 5em 0 5em 0;">
+            <video  controls>
+                <source src="../static/image/Final Comp_1.mp4" style="width:400px;height:600px">
+            </video>
         </section>
         <section id="one" class="wrapper">
             <div class="inner">
                 <div class="flex flex-3">
                     <article>
                         <header>
-                            <h3>Magna tempus sed amet<br /> aliquam veroeros</h3>
+                            <h2>資料清洗</h2>
+                        </header>
+                        <p>使用 plotly 套件，搭配 javascript 可以方便將資料快速地呈現在前端，方便使用者閱讀及判斷交易策略。</p>
+                    </article>
+                    <article>
+                        <header>
+                            <h2>資料分析</h2>
                         </header>
                         <p>Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a ullamcorper laoreet, lectus arcu.</p>
                     </article>
                     <article>
                         <header>
-                            <h3>Interdum lorem pulvinar<br /> adipiscing vitae</h3>
-                        </header>
-                        <p>Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a ullamcorper laoreet, lectus arcu.</p>
-                    </article>
-                    <article>
-                        <header>
-                            <h3>Libero purus magna sapien<br /> sed ullamcorper</h3>
+                            <h2>文字探勘</h2>
                         </header>
                         <p>Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a ullamcorper laoreet, lectus arcu.</p>
                     </article>
@@ -71,31 +74,52 @@
                 <div class="flex flex-4">
                     <div class="box person">
                         <div class="image round">
-                            <img src="{{ url_for('static', filename='image/elwing.jpg') }}"/>
+                            <img src="{{ url_for('static', filename='image/elwing.jpg') }}">
                         </div>
-                        <h3>Magna</h3>
-                        <p>Cipdum dolor</p>
+                        <h3>Jimmy</h3>
+                        <p>系統架構雲端部署</p>
+                    </div>
+                    <div class="box person">
+                        <div class="image round" >
+                            <img src="{{ url_for('static', filename='image/josh.jpg') }}" style="height:155px;width:185px;">
+                        </div>
+                        <h3>Josh</h3>
+                        <p>爬蟲及文字探勘</p>
                     </div>
                     <div class="box person">
                         <div class="image round">
-                            <img src="images/pic04.jpg" alt="Person 2" />
+                            <img src="{{ url_for('static', filename='image/Mason.jpg') }}" style="height:155px;width:185px;">
                         </div>
-                        <h3>Ipsum</h3>
-                        <p>Vestibulum comm</p>
+                        <h3>Mason</h3>
+                        <p>開發環境建立及系統化交易</p>
                     </div>
                     <div class="box person">
                         <div class="image round">
-                            <img src="images/pic05.jpg" alt="Person 3" />
+                            <img src="{{ url_for('static', filename='image/2.jpg') }}" style="height:155px;width:185px;">
                         </div>
-                        <h3>Tempus</h3>
-                        <p>Fusce pellentes</p>
+                        <h3>Tsailinfu</h3>
+                        <p>文字探勘及演算法建模</p>
                     </div>
                     <div class="box person">
                         <div class="image round">
-                            <img src="images/pic06.jpg" alt="Person 4" />
+                            <img src="{{ url_for('static', filename='image/Hsu.png') }}" style="height:155px;width:185px;">
                         </div>
-                        <h3>Dolore</h3>
-                        <p>Praesent placer</p>
+                        <h3>Y.C Hsu</h3>
+                        <p>開發環境建立 ETL歷史資料 資料視覺化網頁製作</p>
+                    </div>
+                    <div class="box person">
+                        <div class="image round">
+                            <img src="{{ url_for('static', filename='image/elwing.jpg') }}" style="height:155px;width:185px;">
+                        </div>
+                        <h3>Peter</h3>
+                        <p>文獻研究 演算法建模<br> 價格預測</p>
+                    </div>
+                    <div class="box person">
+                        <div class="image round">
+                            <img src="{{ url_for('static', filename='image/lee.png') }}" style="height:155px;width:185px;">
+                        </div>
+                        <h3>Denis</h3>
+                        <p>資料視覺化網頁製作</p>
                     </div>
                 </div>
             </div>
