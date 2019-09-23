@@ -5,7 +5,14 @@
     {{super()}}
 {% endblock %}
 {% block content %}
-<h1>hi</h1>
+    <section id="banner" style="background-image: url('../../static/image/banner.jpg');">
+        <h1>文字探勘</h1>
+        <img src="{{ url_for('static', filename='image/message.jpg') }}"><br>
+        <img src="{{ url_for('static', filename='image/news_Wordcloud.png') }}">
+    </section>
+
+
+
 {% endblock %}
 {% block scripts %}
 {%- endblock scripts %}
