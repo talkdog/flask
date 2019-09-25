@@ -5,11 +5,13 @@
     {{super()}}
 {% endblock %}
 {% block content %}
-    <section id="banner" style="background-image: url('../../static/image/banner.jpg');">
-        <h1>文字探勘</h1>
-        <img src="{{ url_for('static', filename='image/message.jpg') }}"><br>
-        <img src="{{ url_for('static', filename='image/news_Wordcloud.png') }}">
+    <section id="banner" style="background-image: url('../../static/image/article.jpg');">
+        <h1 style="font-family:微軟正黑體">文字探勘</h1>
     </section>
+
+    <div class="col-sm-12" >
+        <img src="{{ url_for('static', filename='image/message.jpg') }}"  >
+    </div>
 
 
 
